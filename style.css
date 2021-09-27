@@ -1,0 +1,290 @@
+.grid-container {
+    position: absolute;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap:40px;
+    opacity: 0.3;
+    padding: 10px;
+    width: 80%;
+    margin-left: 130px;
+  }
+  .grid-container > div {
+    background-color: rgb(145, 218, 252);
+    text-align: center;
+    padding: 1125px 0;
+    
+  }
+.header{
+    background-image: url("burgar1.jpeg");
+    min-height: 600px;
+    background-size: 100% 90%;
+    width: 94%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-repeat: no-repeat;
+    padding-top: 7px;
+    margin-bottom: 50px;
+}
+ul#menu li{
+
+    display: inline;
+    padding:15px;
+    font-size: small;
+}
+#menu a{
+    color:white;
+    padding-right: 40px;
+
+}
+#menu{
+    float:right;
+}
+
+ul#icon li{
+    display: inline;
+    padding: 15px;
+    font-size: small;
+}
+#icon a{
+    margin-top: 8px;
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+hr.line {
+    border-top: 1px dashed white;
+  }
+.new p{
+    color: rgb(32, 148, 32);
+    margin-left: 40px;
+    float: left;
+
+}
+.navbar {
+    overflow: hidden;
+  }
+  .navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.dropdown {
+    float: right;
+    overflow: hidden;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+    
+.text p{
+    margin-left: 100px;
+    font-family:Brush Script MT;
+    color: white;
+    font-size: xx-large;
+    padding-left: 450px;
+}
+.text h1{
+    font-style: normal;
+    color:white;
+    padding-left: 500px;
+}
+.text button{
+    margin-left: 600px;
+}
+
+.mid{
+    position: relative;
+    background-color:whitesmoke;
+  width: 80%;
+  border: 1px solid green;
+  margin-left: 130px;
+  min-height: 280px;
+  margin-bottom: 25px; 
+}
+.mid img{
+
+  float: left;
+  width: 300px;
+  height:290px;
+  
+
+}
+.mid li{
+    padding: 4px;
+    list-style: none;
+    display: inline;
+}
+.mid h2{
+    margin-left: 30%;
+    font-style: normal;
+    color: rgb(45, 156, 45);
+}
+.mid p{
+    margin-left: 30%;
+    font-size: normal;
+}
+#icons{
+    margin-left: 26%;
+
+}
+
+.mid1{
+    position: relative;
+    background-color:whitesmoke;
+  width: 80%;
+  border: 1px solid green;
+  margin-left: 130px;
+  min-height: 280px;
+  margin-bottom: 650px;
+}
+.mid1 img{
+
+    float: left;
+    width: 300px;
+    height:290px;
+    
+  
+  }
+.mid1 li{
+      padding: 4px;
+      list-style: none;
+      display: inline;
+  }
+.mid1 h2{
+      margin-left: 30%;
+      font-style: normal;
+      color: rgb(45, 156, 45);
+  }
+.mid1 p{
+    margin-left: 30%;
+    font-size: normal;
+  }
+
+.foo{
+    float:left;
+}
+
+.footer::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.footer h3{
+    padding-left: 70px;
+    padding-right: 60px;
+    padding-top: 20px;
+    color: white;
+    
+    }
+.footer p{
+        padding-left:40px;
+        color:white;
+        font-size: medium;
+    }
+.footer{
+    background-color: #228B22;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.foo1{
+    float: left;
+}
+.footer1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.footer1 h3{
+    color: rgb(10, 179, 10);
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.footer1 p{
+    padding-left: 60px;
+    line-height: 10px;
+    color: white;
+    font-size: medium;
+}
+.footer1 i{
+      color:rgb(43, 228, 43);
+      font-size: 24px;
+}
+.footer1{
+    background: black;
+    width:93.4%;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 70px;
+}
+form{
+    padding-top: 10px;
+    padding-left: 250px;
+}
+
+input[type=text]
+{
+   
+color: white;
+font-size: 16px;
+text-align:left;
+border : 1px solid black;
+width: 60%;
+padding: 10px 0;
+outline:none;
+margin-left: 55px;
+
+}
+input[type=button]
+{
+   
+color: white;
+font-size: 16px;
+text-align:center;
+border : 1px solid black;
+width: 60%;
+padding: 10px 0;
+outline:none;
+background: rgb(29, 207, 29);
+margin-left: 55px;
+}
